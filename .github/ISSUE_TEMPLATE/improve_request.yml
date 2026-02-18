@@ -1,0 +1,55 @@
+name: 💡 Improvement Suggestion
+description: Suggest improvements or enhancements for prenivdlapp-cli
+title: "[Improvement]: "
+labels: ["enhancement", "suggestion"]
+assignees:
+  - arsya371
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve prenivdlapp-cli! Share your ideas for making it better.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this hasn't been suggested
+          required: true
+
+  - type: dropdown
+    id: improvement-area
+    attributes:
+      label: Area of Improvement
+      description: What area would you like to see improved?
+      options:
+        - User Experience / Interface
+        - Download Performance
+        - Error Handling
+        - Platform Support
+        - Documentation
+        - Code Quality
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-situation
+    attributes:
+      label: Current Situation
+      description: Describe how things work currently
+      placeholder: "Currently, when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: Describe your improvement idea
+      placeholder: "It would be better if..."
+    validations:
+      required: true

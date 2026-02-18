@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/arsya371/prenivdlapp-cli#readme
+    about: Check the README for usage instructions and examples
